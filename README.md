@@ -7,11 +7,20 @@ Created a tool to help government officials and health professionals more effect
 
 Data:  
 
-Substance Abuse Data set was provided which has 66 features and 1.6 million rows. Data includes Demographic and Geographic data. It also includes patients current and past substance abuse issues. Target labels are Length of stay and Reason for leaving treatment.  
+a. Prescriber data   
+   > 1 million rows, 81 features
+   Includes zip code information as well as national provider identifiers (NPI)
+   Sufficient unique keys for merging to other data (demographic, crime, mapping)
+b. Treatment data   
+  > 1.6 million rows, 70 features  
+  Includes demographic and geographic information  
+  Includes Patient’s current and past substance abuse issues.    
+
+Target labels are Length of stay and Reason for leaving treatment.    
 
 Exploratory Data Analysis:  
 
-Data visualizations were developed in tableau software  to understand all the features. It played a crucial role in understanding the data well and how target are variables are varying based on independent features.
+Data visualizations were developed in tableau software  to understand all the features. It played a crucial role in understanding the data well and how target variables are varying.
 
 Machine Learning Model used:    
 
