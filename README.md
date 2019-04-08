@@ -5,18 +5,19 @@ Porject Description:
 Created a tool to help government officials and health professionals more effectively use their time and resources combating the negative effects of substance abuse in the United States. Goal is to accurately predict whether patients will complete their treatment as well as their length of stay. It is Regression and Classification problem. Submissions are judged based on accuracy and root mean squared error, respectively.  
 
 
-Data:  
+Data:    
 
-a. Prescriber data   
-   > 1 million rows, 81 features
-   Includes zip code information as well as national provider identifiers (NPI)
-   Sufficient unique keys for merging to other data (demographic, crime, mapping)
-b. Treatment data   
-  > 1.6 million rows, 70 features  
-  Includes demographic and geographic information  
-  Includes Patient’s current and past substance abuse issues.    
-
-Target labels are Length of stay and Reason for leaving treatment.    
+a. Prescriber data         
+   > 1 million rows, 81 features       
+   Includes zip code information as well as national provider identifiers (NPI)       
+   Sufficient unique keys for merging to other data (demographic, crime, mapping)     
+   
+b. Treatment data       
+   > 1.6 million rows, 70 features   
+   Includes demographic and geographic information        
+   Includes Patient’s current and past substance abuse issues.     
+   
+Target labels are Length of stay and Reason for leaving treatment.      
 
 Exploratory Data Analysis:  
 
